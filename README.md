@@ -13,9 +13,6 @@ All working files are located in the app/ directory
 ###Install NPM packages
 - $ npm install
 
-###Install Compass gem
-- $ gem update --system
-- $ gem install compass
 
 ## Running the dev environment
 - $ gulp
