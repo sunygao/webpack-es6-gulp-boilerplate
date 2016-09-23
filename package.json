@@ -1,0 +1,36 @@
+{
+  "name": "boilerplate",
+  "title": "webpack es6 gulp biolerplate",
+  "author" : "Suny Gao",
+  "description": "",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "",
+    "validate-webpack:dev": "webpack-validator webpack.config.js --env.dev"
+  },
+  "dependencies": {
+    "gulp-install": "^0.4.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.2.1",
+    "babel-loader": "^6.2.0",
+    "babel-plugin-transform-es2015-classes": "^6.9.0",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0",
+    "core-js": "^2.4.0",
+    "del": "2.2.0",
+    "gulp": "",
+    "gulp-iconfont": "^1.0.0",
+    "gulp-iconfont-css": "0.0.9",
+    "gulp-imagemin": "^3.0.1",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sass": "2.0.0",
+    "gulp-svgmin": "^1.2.2",
+    "gulp-util": "3.0.4",
+    "lodash": "^4.13.1",
+    "run-sequence": "^1.2.2",
+    "webpack": "1.13.1",
+    "webpack-dev-server": "1.14.1",
+    "webpack-validator": "^2.1.3"
+  }
+}

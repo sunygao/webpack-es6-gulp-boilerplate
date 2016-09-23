@@ -1,0 +1,57 @@
+{
+  "src" : {
+    "sass" : {
+    "files" : [
+        "app/assets/scss/*.scss", 
+        "app/assets/scss/**/*.scss", 
+        "app/assets/scss/**/**/*.scss"
+      ],
+      "folder" : "app/assets/scss"
+    },
+    "js" : {
+      "files" : "app/assets/scripts/**/*"
+    },
+    "imgmin" : { 
+      "images" : "app/assets/images/**/*",
+      "png" : "app/assets/images/**/*.png"
+    },
+    "svg" : {
+      "files" : "app/assets/svg/**/*.svg"
+    }
+  },
+  "staticSrc" : [
+    "app/assets/images/**/*",
+    "app/assets/video/**/*", 
+    "app/assets/fonts/iconfont/*", 
+    "app/assets/fonts/text/*", 
+    "app/*.html", 
+    "app/**/*.html",
+    "app/*.ico"
+  ],
+  "deploy" : {
+    "css" : {
+      "path" : "dist/assets/stylesheets"
+    },
+    "js" : {
+      "path" : "dist/assets/javascripts"
+    },
+    "imgmin" : {
+      "path" : "dist/assets/images"
+    },
+    "svg" : {
+      "path" : "dist/assets/svg"
+    }
+  },
+  "development" : {
+    "css" : {
+      "path" : "app/assets/stylesheets"
+    }
+  },
+  "iconfont": {
+    "srcSVG": "app/assets/fonts/svg-sprites/*.svg",
+    "cssTempSrc" : "app/assets/scss/main/template/_iconfont.css",
+    "sassDest": "../../../../app/assets/scss/main/_iconfont.scss",
+    "fontPath": "../fonts/iconfont/",
+    "destFontPath": "app/assets/fonts/iconfont/"
+  }
+}
