@@ -1,9 +1,9 @@
-# Chime front end
+# Webpack, ES6, Gulp project boilerplate
 
 All working files are located in the app/ directory
 
 ##CSS
-- Compiled using scss, compass and gulp
+- Compiled with gulp and scss
 
 ##Javascript
 - Compiled with webpack and babel loader
