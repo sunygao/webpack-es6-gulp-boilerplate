@@ -2,13 +2,13 @@
 
 All working files are located in the app/ directory
 
-##CSS
+## CSS
 - Compiled with gulp and scss
 
-##Javascript
+## Javascript
 - Compiled with webpack and babel loader
 
-##Installation
+## Installation
 - $ npm install
 
 ## Running the dev environment
@@ -21,7 +21,7 @@ All working files are located in the app/ directory
 - Point your browser to http://localhost:8080
 
 ## Build files for production
-- $ npm build
+- $ npm run build
 	* Sets gulp environment to production
 	* generates iconfonts
 	* compiles css to dist folder
