@@ -14,28 +14,36 @@ All working files are located in the app/ directory
 ## Running the dev environment
 ```$ npm start```
 	
-	* Sets gulp environment to dev
-	* generates iconfonts
-	* runs webpack dev server from app/ directory
-		*** Note that webpack watch task will compile to memory, not disk
-	* runs css and webpack watch tasks in app/ directory
+- Sets gulp environment to dev
+
+-  generates iconfonts
+
+-  runs webpack dev server from app/ directory
+	- ** Note that webpack watch task will compile to memory, not disk
+
+- runs css and webpack watch tasks in app/ directory
+
 - Point your browser to http://localhost:8080
 
 ## Build files for production
 ```$ npm run build```
 	
-	* Sets gulp environment to production
-	* generates iconfonts
-	* compiles css to dist folder
-	* compiles js files to dist folder
-	* copies static assets and html to dist folder
+- Sets gulp environment to production
+
+- generates iconfonts
+
+- compiles css to dist folder
+
+- compiles js files to dist folder
+
+- copies static assets and html to dist folder
 
 ## Generating svg icon fonts
 Place individual svgs into fonts/svg-sprites folder
 
 ```$ gulp iconfontfonts```
 
-	* This will create font files with all the svgs combined into a sprite
+- This will create font files with all the svgs combined into a sprite
 
 
 
