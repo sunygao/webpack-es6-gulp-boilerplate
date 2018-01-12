@@ -1,11 +1,12 @@
 {
   "name": "boilerplate",
   "title": "webpack es6 gulp biolerplate",
-  "author" : "Suny Gao",
+  "author": "Suny Gao",
   "description": "",
   "version": "0.1.0",
   "scripts": {
-    "start": "",
+    "start": "gulp",
+    "build": "gulp build",
     "validate-webpack:dev": "webpack-validator webpack.config.js --env.dev"
   },
   "dependencies": {
@@ -28,6 +29,7 @@
     "gulp-svgmin": "^1.2.2",
     "gulp-util": "3.0.4",
     "lodash": "^4.13.1",
+    "parallelshell": "^3.0.2",
     "run-sequence": "^1.2.2",
     "webpack": "1.13.1",
     "webpack-dev-server": "1.14.1",

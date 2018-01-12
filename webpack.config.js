@@ -44,6 +44,7 @@ module.exports = {
   },
   devServer: {
     hot: true,
-    publicPath: '/assets/javascripts/'
+    publicPath: '/assets/javascripts/',
+    contentBase: 'app/'
   }
 };
