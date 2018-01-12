@@ -9,10 +9,10 @@ All working files are located in the app/ directory
 - Compiled with webpack and babel loader
 
 ## Installation
-- $ npm install
+```$ npm install```
 
 ## Running the dev environment
-- $ npm start
+```$ npm start```
 	* Sets gulp environment to dev
 	* generates iconfonts
 	* runs webpack dev server from app/ directory
@@ -21,7 +21,7 @@ All working files are located in the app/ directory
 - Point your browser to http://localhost:8080
 
 ## Build files for production
-- $ npm run build
+```$ npm run build```
 	* Sets gulp environment to production
 	* generates iconfonts
 	* compiles css to dist folder
@@ -30,7 +30,7 @@ All working files are located in the app/ directory
 
 ## Generating svg icon fonts
 Place individual svgs into fonts/svg-sprites folder
-- $ gulp iconfontfonts
+```$ gulp iconfontfonts```
 	* This will create font files with all the svgs combined into a sprite
 
 
