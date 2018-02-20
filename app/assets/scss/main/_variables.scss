@@ -1,14 +1,26 @@
 //---Breakpoints
-$breakpoint_lrg: 1400px;
-$breakpoint_med: 960px;
-$breakpoint_small: 767px;
-$breakpoint_x_small: 415px;
-$max-width: 1400px;
+$bp-mobile-s: 320px;
+$bp-mobile : 640px;
+$bp-tablet : 768px;
+$bp-tablet-l : 1024px;
+$bp-desktop : 1440px;
 
 //---Grid
-$max_columns: 12; 
-$gutter_px: 1px;
-$gutter_pc: 0;
+$num_columns: 12; 
 $max_content_width: 1440px;
+$page-gutter-desktop: 20px;
+$page-gutter-mobile: 20px;
+$page-gutter-mobile-s: 20px;
+$gutter-desktop: 10px;
+$gutter-mobile: 10px;
+$gutter-tablet-l: 10px;
+$gutter-tablet: 10px;
+
+//---Colors
+$navy: #001633;
+$lavender: #CCA5ED;
+$warm_grey: #CCA5ED;
+$chartreuse: #D1EF59;
+$turquoise: #6BE2CC;
 
 

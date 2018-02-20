@@ -1,27 +1,33 @@
 @import "main/reset";
 @import "main/variables";
+@import "main/media-queries";
+@import "main/mixins";
+@import "main/grid";
 @import "main/zindexes";
 @import "main/fonts";
 @import "main/iconfont";
-@import "main/mixins";
 @import "main/animations";
 @import "main/layout";
 
 @import "views/lrg";
 
-@media (min-width: $breakpoint_lrg) {
+@media #{$mq-desktop-l} {
   @import "views/extra_lrg";
 }
 
-@media (max-width: $breakpoint_med) {
+@media #{$mq-tablet-l} {
+  @import "views/med_lrg";
+}
+
+@media #{$mq-tablet} {
   @import "views/med";
 }
 
-@media (max-width: $breakpoint_small) {
+@media #{$mq-mobile} {
   @import "views/sml";
 }
 
-@media (max-width: $breakpoint_x_small) {
+@media #{$mq-mobile-s} {
   @import "views/x_sml";
 }
 

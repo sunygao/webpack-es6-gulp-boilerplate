@@ -1,1 +1,16 @@
+@mixin timesMedium {
+	font-family: "Times New Roman MT Medium", serif;
+}
+
+@mixin timesItalic {
+	font-family: "Times New Roman MT Italic", serif;
+}
+
+@mixin postBook {
+	font-family: "Post Grotesk Book", sans-serif;
+}
+
+@mixin postBold {
+	font-family: "Post Grotesk Bold", sans-serif;
+}	
 
